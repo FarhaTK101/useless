@@ -1,4 +1,4 @@
-<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
+<img width="3188" height="1202" alt="frame (3)" src=https://github.com/FarhaTK101/useless/blob/52902dc683b8611655ac4ead073764a8a25006e5/banner.jpeg />
 
 
 # USELESS CALCULATOR
@@ -46,7 +46,7 @@ For Software:
 https://github.com/FarhaTK101/useless/blob/d2d80524cf650386582c3b279183d92cbfc4c04b/index1.png
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+
 *Add caption explaining what this shows*
 
 ![Screenshot3](Add screenshot 3 here with proper name)
