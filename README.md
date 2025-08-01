@@ -44,40 +44,24 @@ For Software:
 
 # Screenshots (Add at least 3)
 https://github.com/FarhaTK101/useless/blob/d2d80524cf650386582c3b279183d92cbfc4c04b/index1.png
-*Add caption explaining what this shows*
+This screenshot displays the landing page of the Useless Calculator application. It includes the project title, a short description, and a button to launch the calculator interface.
 
 https://github.com/FarhaTK101/useless/blob/d6650d1959e37198ee088281bb51e5303e7163f8/calculator%20page.png
-*Add caption explaining what this shows*
+This screenshot presents the main calculator UI. It features a number pad and basic arithmetic operators, styled with a neon green theme on a dark background.Its logic is intentionally altered to produce incorrect or unpredictable results.
 
 
-*Add caption explaining what this shows*
+https://github.com/FarhaTK101/useless/blob/e78d7d67eaf2e45a35f0317fb20a96e08e1415c7/chatbot.pngThis screenshot shows the chatbot feature of the application. Users can input mathematical queries or questions, and receive predefined or randomized responses which are quirky and funny
+
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+
 *Explain what the video demonstrates*
 
 # Additional Demos
