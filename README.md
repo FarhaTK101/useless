@@ -43,7 +43,7 @@ No installation needed
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+https://github.com/FarhaTK101/useless/blob/d2d80524cf650386582c3b279183d92cbfc4c04b/index1.png
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
