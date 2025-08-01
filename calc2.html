@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Useless Calculator</title>
+<style>
+  body {
+    background: #222;
+    font-family: 'Courier New', monospace;
+    color: #0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .calculator {
+    background: #111;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #0f0;
+    width: 320px;
+  }
+  #display {
+    background: #000;
+    color: #0f0;
+    font-size: 2em;
+    text-align: right;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    height: 50px;
+    overflow-x: auto;
+    user-select: none;
+  }
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  button {
+    font-size: 1.2em;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #333;
+    color: #0f0;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  button:hover {
+    background: #0f0;
+    color: #111;
+  }
+</style>
+</head>
+<body>`
+  <div class="calculator">
+    <div id="display">0</div>
+    <div class="buttons">
+      <button data-val="7">7</button>
+      <button data-val="8">8</button>
+      <button data-val="9">9</button>
+      <button data-val="+">+</button>
+      
+      <button data-val="4">4</button>
+      <button data-val="5">5</button>
+      <button data-val="6">6</button>
+      <button data-val="-">-</button>
+      
+      <button data-val="1">1</button>
+      <button data-val="2">2</button>
+      <button data-val="3">3</button>
+      <button data-val="*">*</button>
+      
+      <button data-val="0">0</button>
+      <button data-val=".">.</button>
+      <button id="clear">C</button>
+      <button data-val="/">/</button>
+      
+      <button id="equals" style="grid-column: span 4; background:#0f0; color:#111;">=</button>
+      <button style="
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #0f0;
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 999;
+" onclick="window.open('chatbot.html', '_blank')">💬</button>
+    </div>
+  </div>
+
+<script>
+  const display = document.getElementById('display');
+  const buttons = document.querySelectorAll('button[data-val]');
+  const clearBtn = document.getElementById('clear');
+  const equalsBtn = document.getElementById('equals');
+  
+  let currentInput = '';
+  
+  // Append number or operator to input
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentInput += btn.getAttribute('data-val');
+      display.textContent = currentInput;
+    });
+  });
+  
+  // Clear input
+  clearBtn.addEventListener('click', () => {
+    currentInput = '';
+    display.textContent = '0';
+  });
+  
+  // Equals button - speak & show sassy response
+  equalsBtn.addEventListener('click', () => {
+    const sassyResponses = [
+      "What do you expect me to do?",
+      "Math? Seriously?",
+      "You wish I worked.",
+      "Nice try, Einstein.",
+      "Nope. Try again.",
+      "This is why aliens won’t visit.",
+      "Beep boop... just kidding.",
+      "Error 404: Math not found.",
+      "¯\\_(ツ)_/¯",
+      Math.floor(Math.random() * 1000).toString()
+    ];
+    
+    const randomIndex = Math.floor(Math.random() * sassyResponses.length);
+    const message = sassyResponses[randomIndex];
+    
+    // Display message
+    display.textContent = message;
+    currentInput = '';
+
+    // Speak message
+    const speech = new SpeechSynthesisUtterance(message);
+    speech.rate = 1.1;
+    speech.pitch = 1.3;
+    speech.volume = 1;
+    window.speechSynthesis.speak(speech);
+  });
+</script>
+</body>
+</html>
