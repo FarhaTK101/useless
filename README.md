@@ -46,10 +46,10 @@ For Software:
 https://github.com/FarhaTK101/useless/blob/d2d80524cf650386582c3b279183d92cbfc4c04b/index1.png
 *Add caption explaining what this shows*
 
-
+https://github.com/FarhaTK101/useless/blob/d6650d1959e37198ee088281bb51e5303e7163f8/calculator%20page.png
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+
 *Add caption explaining what this shows*
 
 # Diagrams
