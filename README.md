@@ -68,9 +68,9 @@ https://github.com/FarhaTK101/useless/blob/e78d7d67eaf2e45a35f0317fb20a96e08e141
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Farha T K: HTML,CSS,JS
+- Alfiya Sahla: HTML,CSS,JS
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
