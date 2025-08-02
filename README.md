@@ -37,7 +37,8 @@ For Software:
 No installation needed
 
 # Run
-[commands]
+https://useless-pearl.vercel.app/
+
 
 ### Project Documentation
 For Software:
